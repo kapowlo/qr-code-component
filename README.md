@@ -19,7 +19,7 @@ I hope to get significantly better with both HTML/CSS
 
 I specifically want my CSS to improve to the point where If im given a layout
 
-I want know exactly what to do and not feel like im brute forcing my way to a solution.
+I want to know exactly what to do and not feel like im brute forcing my way to a solution.
 
 ### Links
 
