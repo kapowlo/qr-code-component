@@ -23,5 +23,5 @@ I want to know exactly what to do and not feel like im brute forcing my way to a
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/html-and-cssflexbox-qr-code-component-fPsipw707d]
+- Live Site URL: [https://kapowlo.github.io/qr-code-component/]
