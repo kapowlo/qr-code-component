@@ -29,6 +29,14 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: hsl(218, 44%, 22%);
+
+  text-align: center;
+}
+
 .card {
   padding: 0.81rem;
 
