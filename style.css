@@ -31,7 +31,7 @@ body {
 
 .card {
   padding: 0.81rem;
-  border: 2px solid red;
+
   background-color: hsl(0, 0%, 100%);
 
   /*stops card from getting too big,looks ok on very small screen size (375px)
