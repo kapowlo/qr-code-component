@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/*remove padding and margin and set border-box for every element(except generated elements) */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --small-margin: 1rem;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.93rem;
+}
+
+.container {
+  height: 100%;
+  background-color: hsl(212, 45%, 89%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 0.81rem;
+  border: 2px solid red;
+  background-color: hsl(0, 0%, 100%);
+
+  /*stops card from getting too big,looks ok on very small screen size (375px)
+  under 360px there is barely any margin between left and right edges and the card */
+  max-height: 500px;
+  max-width: 350px;
+
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-code {
+  width: 90%;
+  height: 55%;
+  margin-bottom: var(--small-margin);
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.wrap-card-text {
+  width: 90%;
+  text-align: center;
+}
+
+.wrap-card-text h3,
+.wrap-card-text p {
+  margin-bottom: var(--small-margin);
+}
+
+.wrap-card-text h3 {
+  color: hsl(218, 44%, 22%);
+}
+
+.wrap-card-text p {
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  margin-top: 1rem;
+}
+
+/*---------------------------Media Query-------------------------- */
+/*to fix spacing issue on small screen sizes, the card is too close to the left and right edges there is no space */
+
+@media screen and (max-width: 375px) {
+  .card {
+    margin: 0 1em; /*makes more sense to add margin left and right on card than adding padding left and right on container  
+    effect is similar 
+    */
+  }
+}
