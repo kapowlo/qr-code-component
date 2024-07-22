@@ -39,26 +39,26 @@ h1 {
 }
 
 .card {
-  padding: 0.81rem;
+  padding: 1em;
 
   background-color: hsl(0, 0%, 100%);
 
   /*stops card from getting too big,looks ok on very small screen size (375px)
   under 360px there is barely any margin between left and right edges and the card */
   max-height: 500px;
-  max-width: 350px;
+  max-width: 325px;
 
-  border-radius: 6px;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .qr-code {
-  width: 90%;
+  width: 100%;
   height: 55%;
   margin-bottom: var(--small-margin);
-  border-radius: 6px;
+  border-radius: 16px;
   object-fit: cover;
 }
 
